@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <title>My WebApp - {% block title %}{% endblock title %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-<h1>Main page</h1>
 <section>
   <header>
     {% block header %}{% endblock header %}
