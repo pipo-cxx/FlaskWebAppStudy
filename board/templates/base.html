@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My WebApp - {% block title %}{% endblock title %}</title>
+</head>
+<body>
+<h1>Main page</h1>
+<section>
+  <header>
+    {% block header %}{% endblock header %}
+  </header>
+  <main>
+    {% block content %}<p>Empty string. Huh.</p>{% endblock content %}
+  </main>
+</section>
+</body>
+</html>
