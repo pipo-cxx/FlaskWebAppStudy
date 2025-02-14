@@ -1,4 +1,4 @@
-from board import pages
+from source import pages
 from flask import Flask
 
 
