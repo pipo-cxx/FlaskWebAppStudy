@@ -12,3 +12,5 @@ Run this app by using the following command:
 ```python -m flask --app source run --port 8000```
 
 It will be accessible at `127.0.0.1:8000`.
+
+You can visit a sort of instruction page on https://pipo-cxx.github.io/FlaskWebAppStudy/
